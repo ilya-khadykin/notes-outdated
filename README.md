@@ -1,3 +1,7 @@
 # My notes
 
-Here I post my notes concerning programming and stuff like that. See more information on wiki page - https://github.com/m-a-ge/notes/wiki/Home-Page
+This is my list of notes about different kinds of things, but mostly related to IT, programming and related topics
+
+- [HTML][1]
+
+[1]: ./html.md
