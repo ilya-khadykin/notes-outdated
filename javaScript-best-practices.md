@@ -12,9 +12,9 @@ In the browser the global scope is the object `window`, in Node.js it's `global`
 
 ### Best Practices
 
-1. **always declare variables in the scope in which they belong**
++ **always declare variables in the scope in which they belong**
 
-2. When using global variable in local scope always use fully qualified reference:
++ When using global variable in local scope always use fully qualified reference:
 ```js
 var firstname = 'Simon',
     fullname;
@@ -26,10 +26,9 @@ var addSurname = function() {
 addSurname();
 console.log(fullname);
 ```
++ Always use the `var` statement for variable declaration
 
-3. Always use the `var` statement for variable declaration
-
-4. **variable hoisting** - JavaScript 'hoists' all variable declarations to the top of their scope
++ **variable hoisting** - JavaScript 'hoists' all variable declarations to the top of their scope
 ```js
 var firstname = 'Simon';
 var addSurname = function () {
@@ -55,16 +54,16 @@ var addSurname = function () {
 addSurname();
 ```
 
-5. There is no concept of a `block scope`
++ There is no concept of a `block scope`
 
 JavaScript doesn't have the concept of a 'block scope' within `if` statements or `for` loops etc. 
 
-6. Using functions as variables, it's a good practice
++ Using functions as variables, it's a good practice
 ```js
 var addSurname = function () {};
 ```
 
-7. Limit use of the global scope to avoid clashes with variables of the same names from imported third-party libraries and modules.
++ Limit use of the global scope to avoid clashes with variables of the same names from imported third-party libraries and modules.
 You can arrange all your variables into one object like so:
 ```js
 var nameSetup = {  // <-- declare global variable as object
@@ -90,7 +89,7 @@ console.log(nameSetup.fullname);
 
 ### Logic flow and loops: best practice
 
-1. Always use `{ }` in `if` statements
++ Always use `{ }` in `if` statements
 ```js
 var firstname = 'Simon', surname, initial = '', fullname;
 if (firstname === 'Simon') {
@@ -103,9 +102,9 @@ fullname = firstname + ' ' + initial + ' ' + surname;
 console.log(fullname);
 ```
 
-2. Always use the exact operator in conditional statements `===` and `!==` to avoid unexpected results due to type coercion
++ Always use the exact operator in conditional statements `===` and `!==` to avoid unexpected results due to type coercion
 
-3. Declare utility variables right before loop statement in which they are used
++ Declare utility variables right before loop statement in which they are used
 ```js
 var i, myArray, arrayLength;  // <-- declare length variable
 myArray = ["one", "two", "three"];
