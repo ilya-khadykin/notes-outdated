@@ -12,6 +12,7 @@ In the browser the global scope is the object `window`, in Node.js it's `global`
 
 ### Best Practices
 
++ write variable names in `camelCase`
 + **always declare variables in the scope in which they belong**
 
 + When using global variable in local scope always use fully qualified reference:
@@ -115,5 +116,7 @@ for (i = 0, arrayLength = myArray.length; i < arrayLength; i++) {  // <-- assign
 
 ## References
 - ["Getting MEAN with Mongo, Express, Angular, and Node" by Simon Holmes ][1]
+- [freeCodeCamp][2]
 
 [1]: https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node
+[2]: http://freecodecamp.com/

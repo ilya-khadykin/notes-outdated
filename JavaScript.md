@@ -13,6 +13,9 @@ ECMAScript is the official name for JavaScript. This is due to a trademark on `J
 
 ## The Language
 
+### Identifiers and Variable names
+All Variables and function names are case sensitive
+
 ### Statements vs Expressions
 
 JavaScript has two major syntactic categories: statements and expressions:
@@ -125,5 +128,7 @@ console.log(user.age.getAge()); // 30
 
 ## References
 - ["Getting MEAN with Mongo, Express, Angular, and Node" by Simon Holmes ][1]
+- [freeCodeCamp][2]
 
 [1]: https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node
+[2]: http://freecodecamp.com/
