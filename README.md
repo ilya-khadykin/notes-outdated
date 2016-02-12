@@ -7,6 +7,7 @@ This is my list of notes about different kinds of things, but mostly related to 
  - [JavaScript: Best Practices][2]
 2. Java
  - [Java Overview][4]
+ - [Programming in Java: Basic Concepts][5]
 2. [HTML][1]
 
 [1]: html.md
@@ -14,4 +15,5 @@ This is my list of notes about different kinds of things, but mostly related to 
 [2]: javaScript-best-practices.md
 [3]: JavaScript.md
 
-[4]: java-overview.md (Java Overview)
+[4]: ./java/java-overview.md (Java Overview)
+[5]: ./java/java-programming-basic-concepts.md

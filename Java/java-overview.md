@@ -1,6 +1,6 @@
 # Java Overview
 
-**`Java`** is a powerful, general-purpose programming language. It is one of the most widely used programming languages in the world, and has been exceptionnaly successfull in business and enterprise computing. [1][1]
+**`Java`** is a powerful, general-purpose programming language. It is one of the most widely used programming languages in the world, and has been exceptionnaly successfull in business and enterprise computing. [[1][1]
 
 ## History of Java
 
@@ -8,7 +8,7 @@ The Java programming environment has been around since the late 1990s. Java's ar
 
 The language has undergone gradual revision (but not complete rewrites) since its inception in 1996.
 
-## The language, the JVM, and the Ecosystem [1][1]
+## The language, the JVM, and the Ecosystem [[1][1]
 
 The Java programming environment comprises the following pieces:
 - **the Java language**,
@@ -51,5 +51,6 @@ JVM collects runtime information to make better decisions about how to execute c
 The standard that describes how a properly functioning JVM must behave is called **`JVM Specification`**
 
 ## References
+- [Java in a Nutshell, 6th Edition][1]
 
 [1]: http://shop.oreilly.com/product/0636920030775.do (Java in a Nutshell, 6th Edition)
