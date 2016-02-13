@@ -1,5 +1,3 @@
-# My notes
-
 This is my list of notes about different kinds of things, but mostly related to IT, programming and related topics
 
 1. JavaScript
@@ -8,7 +6,9 @@ This is my list of notes about different kinds of things, but mostly related to 
 2. Java
  - [Java Overview][4]
  - [Programming in Java: Basic Concepts][5]
-2. [HTML][1]
+3. [HTML][1]
+4. [Windows PowerShell][6]
+
 
 [1]: html.md
 
@@ -17,3 +17,5 @@ This is my list of notes about different kinds of things, but mostly related to 
 
 [4]: ./java/java-overview.md (Java Overview)
 [5]: ./java/java-programming-basic-concepts.md
+
+[6]: PowerShell.md
