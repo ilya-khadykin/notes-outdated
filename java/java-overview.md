@@ -1,6 +1,6 @@
 # Java Overview
 
-**`Java`** is a powerful, general-purpose programming language. It is one of the most widely used programming languages in the world, and has been exceptionnaly successfull in business and enterprise computing. [[1]][1]
+**`Java`** is a powerful, general-purpose programming language. It is one of the most widely used programming languages in the world, and has been exceptionnaly successfull in business and enterprise computing. [(1)][1]
 
 ## History of Java
 
@@ -8,7 +8,7 @@ The Java programming environment has been around since the late 1990s. Java's ar
 
 The language has undergone gradual revision (but not complete rewrites) since its inception in 1996.
 
-## The language, the JVM, and the Ecosystem [[1]][1]
+## The language, the JVM, and the Ecosystem [(1)][1]
 
 The Java programming environment comprises the following pieces:
 - **the Java language**,
@@ -44,7 +44,7 @@ Java programs are typically started by a command line, such as:
 java <arguments> <program name>
 ```
 
-JVM executes **`Java bytecode`` in a format called class files which must be `compiled` from a source code.
+JVM executes **`Java bytecode``** in a format called class files which must be `compiled` from a source code.
 
 JVM collects runtime information to make better decisions about how to execute code (just-in-time (JIT) compilation, 'hot methods' (the most used methods) compiled into machine code).
 
