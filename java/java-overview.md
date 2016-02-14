@@ -8,7 +8,7 @@ The Java programming environment has been around since the late 1990s. Java's ar
 
 The language has undergone gradual revision (but not complete rewrites) since its inception in 1996.
 
-## The language, the JVM, and the Ecosystem [(1)][1]
+## The language, The JVM, and The Ecosystem [(1)][1]
 
 The Java programming environment comprises the following pieces:
 - **the Java language**,
@@ -25,7 +25,7 @@ Java comprises several different, but related environment and specifications:
 - **`Java Standard Edition (Java SE)`**
 - **`Java Enterprise Edition (Java EE)`**
 
-### the Java Language
+### The Java Language
 
 the Java language is a human-readable programming language, which is class based and object oriented.
 
@@ -33,7 +33,7 @@ Java 8 has added the most radical changes seen in the language for almost a deca
 
 The Java language is governed by **`the Java Language Specification (JLS)`**, which defines how a conforming implementation must behave.
 
-### the JVM
+### The JVM
 
 The JVM is a program that provides the runtime environment necessary for Java programs to execute.
 
@@ -49,6 +49,11 @@ JVM executes **`Java bytecode``** in a format called class files which must be `
 JVM collects runtime information to make better decisions about how to execute code (just-in-time (JIT) compilation, 'hot methods' (the most used methods) compiled into machine code).
 
 The standard that describes how a properly functioning JVM must behave is called **`JVM Specification`**
+
+### The Lifecycle of a Java Program
+
+This is how Java code is compiled and loaded:
+![Java Program Lifecycle](java_program_lifecycle.png)
 
 ## References
 - [Java in a Nutshell, 6th Edition][1]
