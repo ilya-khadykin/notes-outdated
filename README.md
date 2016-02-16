@@ -5,16 +5,15 @@ This is my list of notes about different kinds of things, but mostly related to 
  - [JavaScript: Best Practices][2]
 
 2. Java
-- [Java Overview][4]
-- [Java Versions][6]
-- [Programming in Java: Basic Concepts][5]
-- [Basics of OOP in Java][7]
-- [Basics of Java Syntax][8]
-
+ - [Java Overview][4]
+ - [Java Versions][6]
+ - [Programming in Java: Basic Concepts][5]
+ - [Basics of OOP in Java][7]
+ - [Basics of Java Syntax][8]
 
 3. [HTML][1]
-4. [Windows PowerShell][2]
 
+4. [Windows PowerShell][2]
 
 [1]: html.md
 

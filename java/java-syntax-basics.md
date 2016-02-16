@@ -7,6 +7,7 @@
 Java is a strongly typed language because the Java compiler checks for consistency. The scope of a variable is the part of the program where it is defined.
 
 A Java program manipulates variables that are named with identifiers. Each variable is associated with a data type and stores one of the permissible data-type values. We use expressions to apply the operations associated with each type. [(2)][2]
+
 ![Java Building Blocks](./img/java-building-blocks.png)
 
 
@@ -43,6 +44,7 @@ public class Variables {
 ## Operators
 
 The following table summarizes the set of values and most common operations on those values for Java's `int`, `double`, `boolean`, and `char` data types. [(2)][2]
+
 ![primitive-data-types.png](./img/primitive-data-types.png)
 
 ```java
@@ -129,6 +131,7 @@ public class Conditions {
 ```
 
 The following table illustrates different kinds of Java statements. [(2)][2]
+
 ![java-statements.png](./img/java-statements.png)
 
 ## Arrays
