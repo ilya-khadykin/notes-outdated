@@ -55,6 +55,26 @@ The standard that describes how a properly functioning JVM must behave is called
 This is how Java code is compiled and loaded:
 ![Java Program Lifecycle](java_program_lifecycle.png)
 
+
+## Java Libraries and Documentation
+
+The Official Documention can be found here - [docs.oracle.com/javase/](http://docs.oracle.com/javase/)
+
+## Packages
+
+```java
+package package1;
+
+// import the namespace
+import java.util.Date;
+```
+
+namespace is similar to a family name
+
+Full name of a class is `<package>.<class_name>` (fully qualified name).
+
+
+
 ## References
 - [Java in a Nutshell, 6th Edition][1]
 

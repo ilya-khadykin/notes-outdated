@@ -66,8 +66,9 @@ if ((x < 3) & (name.equals("Dirk"))) {
 System.out.print("this line runs no matter what");
 ```
 
-
 ## References
 1. [Head First Java, 2nd Edition][1]
+2. [Java Programming Basics by Simon Roberts][2]
 
 [1]: http://shop.oreilly.com/product/9780596009205.do
+[2]: https://www.safaribooksonline.com/library/view/java-programming-basics/9780133975154/
