@@ -1,4 +1,4 @@
-This page was created in order to further investigated some of java code snippets I've come across and analyze it and fill gaps in my knowledge of java syntax.
+This page was created in order to further investigate some of java code snippets I've come across, analyze them and fill gaps in my knowledge of java syntax.
 
 ## Declarations
 
@@ -42,9 +42,9 @@ public class Test {
   static int s;
   public static void main(String[] args) {
     int I = 1;
-    do while (I < 1)
+    do while (I < 1)  // why this is valid?
     System.out.print("I is " + I);
-    while (I > 1);
+    while (I > 1); // why this is valid?
   }
 }
 ```
