@@ -15,6 +15,78 @@ public class Dog {
   }
 }
 ```
+
+
+## Compilation to bytecode
+
+You can compile your program using source code compiler for JDK in CLI:
+
+```bash
+javac <YourClassName>.java
+```
+
+### Classpath
+
+`-classpath` tells to the compiler where to find third-party classes:
+
+```
+javac -classpath lib.jar HelloWorld.java
+```
+
+And you also should add the classpath while running the program:
+
+```
+java -classpath lib.jar:hw.jar HelloWorld
+```
+
+You can also read the compiled bytecode using the following tool:
+
+```
+javap -v <YourClassName>.class
+```
+## Running Java program
+
+To run the program use JVM and invoke main class with main() method:
+```
+java <YourMainClass>
+```
+
+Run Java program from jar:
+
+```
+java -jar <nameofyourarchave>.jar
+java -jar hw.jar
+
+java -classpath <nameofyourarchave>.jar <NameOfMainClass>
+java -classpath hw.jar HelloWorld
+```
+
+## Java Archive or jar
+
+jar is basically a zip file which contains all classes of the program and one special file - manifest. Manifest (META-INF/MANIFEST.MF) strores meta information about archive, specifically about main class
+
+There is a special tool for working with java archaves - jar.
+
+To create a jar use the following command:
+
+```
+jar cfe <nameofyourarchave>.jar <NameOfMainClass> <AllFilesYouWantToAddToArchave>
+jar cfe hw.jar HelloWorld HelloWorld.class
+```
+
+To see what is inside of jar without unpacking:
+
+```
+jar tf <nameofyourarchave>.jar
+jar tf hw.jar
+```
+
+Unpack the archive:
+
+```
+jar xf hw.jar
+```
+
 ## Anatomy of a class [[1]][1]
 
 Execution of the program in JVM starts from a specially-written method:

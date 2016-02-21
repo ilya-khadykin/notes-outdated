@@ -10,7 +10,6 @@ A Java program manipulates variables that are named with identifiers. Each varia
 
 ![Java Building Blocks](./img/java-building-blocks.png)
 
-
 ```java
 public class Variables {
 
@@ -338,8 +337,8 @@ public class Date1 {
 ```
 
 ## References
-- [Java Programming Basics by Simon Roberts][1]
-- [Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne][2]
+1. [Java Programming Basics by Simon Roberts][1]
+2. [Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne][2]
 
 [1]: https://www.safaribooksonline.com/library/view/java-programming-basics/9780133975154/
 [2]: http://algs4.cs.princeton.edu/home/
