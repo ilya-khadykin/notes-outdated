@@ -1,5 +1,15 @@
 # Basics of OOP in Java
 
+Characteristics of object-oriented language:
+
+1. Everything is an object.
+2. A program is a bunch of objects telling each other what to do by sending messages.
+3. Each object has its own memory made up of other objects.
+4. Every object has a type (class type).
+5. All objects of a particular type can receive the same messages.
+
+> An object has state, behavior and identity.
+
 ## Key points [(1)][1]
 
 - Object-oriented programming lets you extend a program without having to touch previously-tested, working code.

@@ -1,4 +1,4 @@
-# Primitive data types
+# Primitive data types in Java
 
 Primitive type is basically a cell in computer memory which holds particular value
 

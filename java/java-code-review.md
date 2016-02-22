@@ -48,3 +48,11 @@ public class Test {
   }
 }
 ```
+
+```java
+BigInteger two = BigInteger.valueOf(2);
+BigInteger powerofTwo == two.pow(100);
+
+BigDecimal one = BigDecimal.valueOf(1);
+BigDecimal divisionResult = one.divide(new BigDecimal(powerofTwo));
+```

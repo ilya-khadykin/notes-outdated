@@ -9,6 +9,9 @@ Topics:
 7. [Handling Exceptions in Java][8]
 8. [Java IO Libraries][9]
 9. [Java Style Guidelines][10]
+10. [Primitive data types in Java][11]
+11. [Reference types in Java][12]
+12. [Type Conversion in Java][13]
 
 For Review: [Java Code Review][6]
 
@@ -24,3 +27,6 @@ For Review: [Java Code Review][6]
 [8]: java-handling-exceptions.md
 [9]: java-io-libraries.md
 [10]: java-style-guidelines.md
+[11]: java-primitive-types.md
+[12]: java-reference-types.md
+[13]: java-type-conversion.md
