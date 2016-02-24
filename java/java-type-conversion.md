@@ -33,6 +33,8 @@ float floatFromLargeDouble = (float) largeDouble; // Infinity
 
 ## Automatic type conversion
 
+![automatic_type_convertion.png](./img/automatic_type_convertion.png)
+
 ```java
 double doubleValue = 1d + 1f;
 
