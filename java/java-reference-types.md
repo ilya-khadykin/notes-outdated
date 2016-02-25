@@ -1,5 +1,7 @@
 # Reference types in Java
 
+There is actually no such thing as an object variable, there is only an **object reference** variable.
+
 ## Wrapper classes
 
 Primitive | Class

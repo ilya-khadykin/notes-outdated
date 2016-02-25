@@ -8,7 +8,7 @@ Characteristics of object-oriented language:
 4. Every object has a type (class type).
 5. All objects of a particular type can receive the same messages.
 
-> An object has state, behavior and identity.
+> An object has state, behavior
 
 ## Key points [(1)][1]
 
@@ -40,6 +40,35 @@ When the JVM can ‘see’ that an object can never be used again, that object b
 
 It's an idea of restricting direct manipulation of class variables. Every interaction with a class is done using methods.
 
+### Getters and Setters
+
+By forcing everybody to call a setter method, we can protect the class instance variable from unacceptable value
+
+```java
+class ElectricGuitar {
+  String brand;
+  boolean rockStarUsesIt;
+
+  String getBrand() {
+      return brand;
+  }
+
+  void setBrand(String aBrand) {
+      brand = aBrand;
+  }
+
+  boolean getRockstarUsesIt() {
+      return rockStarUsesIt;
+  }
+
+  void setRockStarUsesIt(boolean yesOrNo) {
+      rockStarUsesIt = yesOrNo;
+  }
+}
+```
+
+Encapsulation (using Getter and Setters) allows you to validate your data in one place
+
 See the example: [(2)][2]
 
 ```java
@@ -50,11 +79,7 @@ package date1;
 
 public class Date {
   private int day;     // restricting access to an instance variable
-  private int month;   // restricting access to an instance 
-
-  ## Inheritance
-
-  variable
+  private int month;   // restricting access to an instance variable
   private int year;    // restricting access to an instance variable
 
   @Override
