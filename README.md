@@ -15,6 +15,8 @@ This is my list of notes about different kinds of things, but mostly related to 
 
 4. [Windows PowerShell][2]
 
+5. [Extreme Programming][9]
+
 [1]: html.md
 
 [2]: PowerShell.md
@@ -28,3 +30,4 @@ This is my list of notes about different kinds of things, but mostly related to 
 [7]: ./java/java-oop-basics.md
 [8]: ./java/java-syntax-basics.md
 
+[9]: extreme-programming.md
