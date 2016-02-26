@@ -13,6 +13,7 @@ Topics:
 11. [Reference types in Java][12]
 12. [Type Conversion in Java][13]
 13. [How to develop a Class in Java][14]
+14. [Java library][15]
 
 For Review: [Java Code Review][6]
 
@@ -32,3 +33,4 @@ For Review: [Java Code Review][6]
 [12]: java-reference-types.md
 [13]: java-type-conversion.md
 [14]: java-how-to-develop-a-class.md
+[15]: java-library.md
