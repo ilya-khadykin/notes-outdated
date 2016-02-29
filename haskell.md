@@ -1,4 +1,4 @@
-# Haskell
+# Haskell (Draft)
 
 Haskell platform - haskell.org/platform
 
@@ -43,5 +43,33 @@ max5` = max 5
 ```haskell
 discount limit proc sum = if sum >= limit then sum * (100 - proc) / 100 else sum
 standardDiscount = discount 1000 5
-// standardDiscount 200
+-- standardDiscount 200
+```
+
+## Operators
+
+Operators are binary in Haskell (except `-` prefix which gives a negative number)
+
+9 levels of operator's priority (from lowest to highest)
+
+```haskell
+6 `max` 7 -- == max 6 7
+
+(+) 6 7
+
+
+infixr 8 ^, 'logBase'
+infixl 7 *, /, 'div', 'mod'
+infix 4 ==, /=, >, >=, <, <= -- no associativity
+```
+
+You can define your own operators:
+```haskell
+{-
+! # $ % & * + . / < = ? ? @ \ ^ | - ~
+-}
+
+infixl 6 *+* -- 6 is a priority
+
+a *+* b = a ^ 2 + b ^ 2 -- == (*+*) a b = a ^ 2 + b ^ 2
 ```
