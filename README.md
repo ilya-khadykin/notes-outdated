@@ -1,5 +1,13 @@
 This is my list of notes about different kinds of things, but mostly related to IT, programming and related topics
 
+Be sure to visit [wiki](https://github.com/m-a-ge/notes/wiki), you can find a lot of useful things there!
+
+This repository consists of code examples and demos.
+
+* [html5](./html5/README.md)
+
+Work in progress...
+
 1. JavaScript
  - [JavaScript: the language and related concepts][3]
  - [JavaScript: Best Practices][2]

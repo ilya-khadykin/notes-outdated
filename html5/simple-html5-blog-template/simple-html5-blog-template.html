@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Simple HTML5 blog</title>
+<style>
+html {
+			font-size:100.01%;
+		}
+		/* reset */
+		html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,hr,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfont,thead,tr,th,td{padding:0;margin:0;border:none;outline:none;vertical-align:baseline;font-family:inherit;font-size:100%;}dfn,i,cite,var,address,em{font-style:normal;}th,b,strong,h1,h2,h3,h4,h5,h6{font-weight:normal;}textarea,input,select{font-family:inherit;font-size:1em;}blockquote,q{quotes:none;}q:before,q:after,blockquote:before,blockquote:after{content:'';content:none;}ol,ul{list-style:none;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;}:focus{outline:none;}
+
+		html, body {
+			height:100%;
+		}
+
+		body {
+			font: .8125em/1.5 Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+			background: #fff;
+			color: #333;
+		}
+
+		header, 
+		nav, 
+		section, 
+		article, 
+		aside, 
+		footer {
+			display: block
+		}
+		a {
+			color: #267;
+			text-decoration: underline
+		}
+		a:hover {
+			color: #722
+		}
+		p {
+			margin: 0 0 1em
+		}
+		
+		header {
+			color: #007e99;
+			font-size: 2.5em;
+			padding: 20px 50px
+		}
+			header span {
+				color: #722
+			}
+			
+		nav {
+			font-size: 1.5em;
+			margin: 5px 0;
+			padding: 20px 50px
+		}
+			nav li {
+				display: inline;
+				margin: 0 15px
+			}
+			nav li:first-child {
+				margin-left: 0
+			}
+			nav span,
+			nav a {
+				padding: 3px 15px 4px
+			}
+			nav span {
+				background: #722;
+				color: #fff
+			}
+nav header {
+  margin-left: 0;
+				font-size: 12px;
+  padding: 0
+			}
+		section {
+			float: left;
+			padding: 35px 0;
+			position: relative;
+			width: 70%
+		}
+		
+			section article {
+				margin: 0 50px 40px;
+				padding: 25px 0 0;
+				position: relative
+			}
+			section header {
+				font-size: 1em;
+				padding: 0;
+			}
+			section h2 {
+				font-size: 2.3em;
+			}
+		aside {
+			float: right;
+			padding: 70px 0 30px;
+			position: relative;
+			width: 25%
+		}
+	
+			aside h2 {
+				color: #888;
+				font-size: 1.8em
+			}
+			aside .tag-cloud {
+				padding: 15px 35px 10px 0;
+				text-align: center
+			}
+				aside .tag-cloud li {
+					display: inline
+				}
+				aside .tag-cloud a {
+					color: #69a
+				}
+				aside .tag-cloud a:hover {
+					color: #a67
+				}
+				aside .tag-cloud .w1 {
+					font-size: .8em
+				}
+				aside .tag-cloud .w2 {
+					font-size: 1em
+				}
+				aside .tag-cloud .w3 {
+					font-size: 1.1em
+				}
+				aside .tag-cloud .w4 {
+					font-size: 1.2em
+				}
+				aside .tag-cloud .w5 {
+					font-size: 1.3em
+				}
+				aside .tag-cloud .w6 {
+					font-size: 1.4em
+				}
+				aside .tag-cloud .w7 {
+					font-size: 1.5em
+				}
+				aside .tag-cloud .w8 {
+					font-size: 1.6em
+				}
+				aside .tag-cloud .w9 {
+					font-size: 1.8em
+				}
+				aside .tag-cloud .w10 {
+					font-size: 2em
+				}
+            figcaption {
+                font-style:italic;
+                font-size: 0.8em;
+                width: 100%
+            }
+
+			footer {
+				clear: both;
+				color: #777;
+				padding: 10px 50px
+			}
+
+			header:hover, 
+			nav:hover, 
+			section:hover, 
+			aside:hover, 
+			footer:hover {
+				background: #eee
+			}
+			article:hover {
+				background: #ccc
+			}
+			article header:hover {
+				background: #ccc
+			}
+</style>
+</head>
+<body>
+<header>
+	<h1>Simple <span>HTML5</span> blog (page &lt;header&gt;)</h1>
+</header>
+
+<aside>
+  	<h2>
+         <a href="javascript:(function(){var i=function(a){this.sections=[];this.startingNode=a};i.prototype={heading:false,append:function(a){a.container=this;this.sections.push(a)},asHTML:function(a){var b=u(this.heading);if(a)b='&lt;a href=&quot;#'+v(this.startingNode)+'&quot;&gt;'+b+&quot;&lt;/a&gt;&quot;;return b+q(this.sections,a)}};var q=function(a,b){for(var f=&quot;&quot;,c=0;c&lt;a.length;c++)f+=&quot;&lt;li&gt;&quot;+a[c].asHTML(b)+&quot;&lt;/li&gt;&quot;;return f==&quot;&quot;?f:&quot;&lt;ol&gt;&quot;+f+&quot;&lt;/ol&gt;&quot;},r=function(a){a=a.heading;return h(a)?j(a):1},u=function(a){if(h(a)){if(k(a)==&quot;HGROUP&quot;)a=a.getElementsByTagName(&quot;h&quot;+
+            -j(a))[0];return a.textContent||a.innerText||&quot;&lt;i&gt;No text content inside &quot;+a.nodeName+&quot;&lt;/i&gt;&quot;}return&quot;&quot;+a},v=function(a){var b=a.getAttribute(&quot;id&quot;);if(b)return b;do b=&quot;h5o-&quot;+ ++s;while(t.getElementById(b));a.setAttribute(&quot;id&quot;,b);return b},e,d,g,s,t,w=function(a,b,f){var c=a;a:for(;c;){b(c);if(c.firstChild){c=c.firstChild;continue a}for(;c;){f(c);if(c.nextSibling){c=c.nextSibling;continue a}c=c==a?null:c.parentNode}}},x=function(a){if(!h(o(g)))if(l(a)||m(a)){e!=null&amp;&amp;g.push(e);e=a;d=new i(a);e.outline=
+            {sections:[d],startingNode:a,asHTML:function(c){return q(this.sections,c)}}}else if(e!=null)if(h(a)){if(d.heading)if(j(a)&gt;=r(n(e.outline))){var b=new i(a);e.outline.sections.push(b);d=b;d.heading=a}else{b=false;var f=d;do{if(j(a)&lt;r(f)){b=new i(a);f.append(b);d=b;d.heading=a;b=true}f=f.container}while(!b)}else d.heading=a;g.push(a)}},y=function(a){var b=o(g);if(h(b))b==a&amp;&amp;g.pop();else{if((l(a)||m(a))&amp;&amp;!d.heading)d.heading=&quot;&lt;i&gt;Untitled &quot;+k(a)+&quot;&lt;/i&gt;&quot;;if(l(a)&amp;&amp;g.length&gt;0){e=g.pop();d=n(e.outline);for(b=
+            0;b&lt;a.outline.sections.length;b++)d.append(a.outline.sections[b])}else if(m(a)&amp;&amp;g.length&gt;0){e=g.pop();for(d=n(e.outline);d.sections.length&gt;0;)d=n(d)}else if(l(a)||m(a))d=e.outline.sections[0]}},k=function(a){return a.tagName.toUpperCase()},p=function(a){return function(b){return z(b)&amp;&amp;(new RegExp(a,&quot;i&quot;)).test(k(b))}},m=p(&quot;^BLOCKQUOTE|BODY|DETAILS|FIELDSET|FIGURE|TD$&quot;),l=p(&quot;^ARTICLE|ASIDE|NAV|SECTION$&quot;),h=p(&quot;^H[1-6]|HGROUP$&quot;),z=function(a){return a&amp;&amp;a.tagName},j=function(a){var b=k(a);if(b==&quot;HGROUP&quot;)for(b=
+            1;b&lt;=6;b++){if(a.getElementsByTagName(&quot;H&quot;+b).length&gt;0)return-b}else return-parseInt(b.substr(1))},n=function(a){return o(a.sections)},o=function(a){return a[a.length-1]};HTML5Outline=function(a){s=0;t=a.ownerDocument||window.document;d=e=null;g=[];w(a,x,y);return e!=null?e.outline:null}})();
+            ;(function(){var b=function(e,f){for(var d=0;d&lt;e.length;d++)e[d].setAttribute(&quot;style&quot;,f)},g=HTML5Outline(document.body).asHTML(true),a=document.createElement(&quot;div&quot;);b([a],&quot;position:fixed;top:10px;right:10px;border:2px solid #000;background:rgba(255,255,255,.9);padding:15px;z-index:999;max-height:400px;overflow:auto;font-size:11px;font-family:Verdana, sans-serif;&quot;);a.innerHTML=g;b(a.getElementsByTagName(&quot;li&quot;),&quot;list-style:decimal outside;margin-left:20px;font-size:11px;font-family:Verdana, sans-serif;&quot;);
+            b(a.getElementsByTagName(&quot;ol&quot;),&quot;margin: 0;padding:0;font-size:11px;font-family:Verdana, sans-serif;&quot;);b(a.getElementsByTagName(&quot;a&quot;),&quot;color:#008;text-decoration:underline;font-size:11px;font-family:Verdana, sans-serif;&quot;);var c=a.insertBefore(document.createElement(&quot;a&quot;),a.firstChild);b([c],&quot;float: right; margin: 0 0 5px 5px; padding: 5px; border: 1px #008 solid;color:#00f;background-color:#ccf;&quot;);c.innerHTML=&quot;Close&quot;;c.href=&quot;#&quot;;c.onclick=function(){document.body.removeChild(a);a=c=null};document.body.appendChild(a)})();
+            ;" title="TableDeMatiere">Click here for displaying the table of contents!</a>
+     </h2>
+</aside> 
+
+<nav>
+  <header>
+    <h2>Navigation menu inside <span>&lt;nav&gt;</span> tag</h2>
+  </header>
+	<ul>
+		<li><span>Blog</span></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+	</ul>
+</nav>
+
+<main>
+<section>
+  <header>    
+    <h2>Blog posts for April 2012 (&lt;header&gt; of a &lt;section&gt;)</h2>    
+  </header>
+  <article>
+    <header>
+      <h3><a href="">Information about this example (&lt;header&gt; of an &lt;article&gt;)</a></h2>
+      This example is a modified version of <a href="http://netstream.ru/htmlsamples/html5-blog/index.html">http://netstream.ru/htmlsamples/html5-blog/index.html</a>
+    </header>
+    <p>Try to move the mouse on different elements. The structure will be highlighted and you will be able to see the different inclusions of elements one in each other. If you move the cursor to this sentence, it will be highlighted in dark grey, showing the presence of an &lt;article&gt; element, surrounded by a &lt;section&gt; element (light grey), etc. So we have some articles in a single section element. The page title at the top is a &lt;header&gt; element, while  the tag cloud on the right is a &lt;aside&gt; element. The main menu on top (with Blog, About, Contact) is a &lt;nav&gt; element.</p>
+     <figure>
+  <img src="http://www.fredcavazza.net/files/2009/09/html5_structure.png" alt="Example of HTML5 structuring tags" />
+  <figcaption>
+    Fig. 1 : an example of how new structuring elements could be used. This page put a &lt;nav&gt; on top, and does not have headers and footer for each article, like in this figure, but it could... By the way, this is a &lt;figcaption&gt; inside a &lt;figure&gt; element...
+  </figcaption>
+</figure>
+      
+  </article>
+	<article>
+		<header>
+			<h3><a href="">History (&lt;header&gt; of an &lt;article&gt;)</a></h2>
+		</header>
+    
+		<p>Work on HTML 5 originally started in late 2003, as a proof of concept to show that it was possible to extend HTML 4's forms to provide many of the features that XForms 1.0 introduced, without requiring browsers to implement rendering engines that were incompatible with existing HTML Web pages. At this early stage, while the draft was already publicly available, and input was already being solicited from all sources, the specification was only under Opera Software's copyright.</p>
+		<p>In early 2004, some of the principles that underlie this effort, as well as an early draft proposal covering just forms-related features, were presented to the W3C jointly by Mozilla and Opera at a workshop discussing the future of Web Applications on the Web. The proposal was rejected on the grounds that the proposal conflicted with the previously chosen direction for the Web's evolution.</p>
+		<p>Shortly thereafter, Apple, Mozilla, and Opera jointly announced their intent to continue working on the effort. A public mailing list was created, and the drafts were moved to the WHATWG site. The copyright was subsequently amended to be jointly owned by all three vendors, and to allow reuse of the specifications.</p>
+		<p>In 2006, the W3C expressed interest in the specification, and created a working group chartered to work with the WHATWG on the development of the HTML 5 specifications. The working group opened in 2007. Apple, Mozilla, and Opera allowed the W3C to publish the specifications under the W3C copyright, while keeping versions with the less restrictive license on the WHATWG site.</p>
+		<p>Since then, both groups have been working together.</p>
+	</article>
+	<article>
+		<header>
+			<h3><a href="">HTML vs XHTML (&lt;header&gt; of an &lt;article&gt;)</a></h2>
+		</header>
+		<p>This specification defines an abstract language for describing documents and applications, and some APIs for interacting with in-memory representations of resources that use this language.</p>
+		<p>The in-memory representation is known as  DOM5 HTML , or  the DOM  for short.</p>
+		<p>There are various concrete syntaxes that can be used to transmit resources that use this abstract language, two of which are defined in this specification.</p>
+		<p>The first such concrete syntax is  HTML5 . This is the format recommended for most authors. It is compatible with most legacy Web browsers. If a document is transmitted with the MIME type text/html, then it will be processed as an  HTML5  document by Web browsers.</p>
+		<p>The second concrete syntax uses XML, and is known as  XHTML5 . When a document is transmitted with an XML MIME type, such as application/xhtml+xml, then it is processed by an XML processor by Web browsers, and treated as an  XHTML5  document. Authors are reminded that the processing for XML and HTML differs; in particular, even minor syntax errors will prevent an XML document from being rendered fully, whereas they would be ignored in the  HTML5  syntax.</p>
+		<p>The  DOM5 HTML ,  HTML5 , and  XHTML5  representations cannot all represent the same content. For example, namespaces cannot be represented using  HTML5 , but they are supported in  DOM5 HTML  and  XHTML5 . Similarly, documents that use the noscript feature can be represented using  HTML5 , but cannot be represented with  XHTML5  and  DOM5 HTML . Comments that contain the string  ->  can be represented in  DOM5 HTML  but not in  HTML5  and  XHTML5 . And so forth.</p>
+	</article>
+</section>
+</main>
+
+<aside>
+  <h2>Tag cloud (inside of &lt;aside&gt;)</h2>
+	<ul class="tag-cloud">
+		<li><a href="" rel="tag" class="w2">ajax</a></li>
+		<li><a href="" rel="tag" class="w8">apple</a></li>
+		<li><a href="" rel="tag" class="w3">css</a></li>
+		<li><a href="" rel="tag" class="w6">firefox</a></li>
+		<li><a href="" rel="tag" class="w8">google</a></li>
+		<li><a href="" rel="tag" class="w2">html</a></li>
+		<li><a href="" rel="tag" class="w2">internet explorer</a></li>
+		<li><a href="" rel="tag" class="w6">iphone</a></li>
+		<li><a href="" rel="tag" class="w9">css3</a></li>
+		<li><a href="" rel="tag" class="w2">ipod</a></li>
+		<li><a href="" rel="tag" class="w5">javascript</a></li>
+		<li><a href="" rel="tag" class="w1">jquery</a></li>
+		<li><a href="" rel="tag" class="w2">mac</a></li>
+		<li><a href="" rel="tag" class="w4">opera</a></li>
+		<li><a href="" rel="tag" class="w2">rss</a></li>
+		<li><a href="" rel="tag" class="w10">html5</a></li>
+		<li><a href="" rel="tag" class="w2">web</a></li>
+		<li><a href="" rel="tag" class="w8">web 2.0</a></li>
+		<li><a href="" rel="tag" class="w1">web-??????????</a></li>
+		<li><a href="" rel="tag" class="w3">windows</a></li>
+		<li><a href="" rel="tag" class="w2">yahoo</a></li>
+		<li><a href="" rel="tag" class="w7">youtube</a></li>
+	</ul>
+</aside>
+<footer>
+	<p>&copy; 2009 Some blog (inside of &lt;footer&gt;)</p>
+</footer>
+</body>
+</html>
