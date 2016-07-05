@@ -4,7 +4,8 @@ Be sure to visit [wiki](https://github.com/m-a-ge/notes/wiki), you can find a lo
 
 This repository consists of code examples and demos.
 
-* [html5](./html5/README.md)
+* [Selenium Demo](./selenium-demo)
+* [html5](./html5)
 
 Work in progress...
 
