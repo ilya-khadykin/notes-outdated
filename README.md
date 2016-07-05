@@ -4,9 +4,10 @@ Be sure to visit [wiki](https://github.com/m-a-ge/notes/wiki), you can find a lo
 
 This repository consists of code examples and demos.
 
-* [Selenium Demo](./selenium-demo)
-* [html5](./html5)
 * [python](./python)
+* [Selenium Demo](./selenium-demo)
+* [Algorithms](./algorithms)
+* [html5](./html5)
 
 Work in progress...
 
