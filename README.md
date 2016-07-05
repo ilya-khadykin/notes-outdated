@@ -6,6 +6,7 @@ This repository consists of code examples and demos.
 
 * [Selenium Demo](./selenium-demo)
 * [html5](./html5)
+* [python](./python)
 
 Work in progress...
 
