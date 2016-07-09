@@ -18,11 +18,6 @@ Work in progress...
  - [Basics of OOP in Java][7]
  - [Basics of Java Syntax][8]
 
-2. [HTML][1]
-
-
-[1]: html.md
-
 [4]: ./java/java-overview.md (Java Overview)
 [5]: ./java/java-programming-basic-concepts.md
 [6]: ./java/java-versions.md
