@@ -53,6 +53,10 @@ Operators are binary in Haskell (except `-` prefix which gives a negative number
 9 levels of operator's priority (from lowest to highest)
 
 ```haskell
+:info (+)
+```
+
+```haskell
 6 `max` 7 -- == max 6 7
 
 (+) 6 7
