@@ -15,10 +15,12 @@ All things related to Python, my experiments and code snippets
 * [NetworkServerWithSocket.py] - basic example of a network server created with `socket`
 * [UsingSSLwithSocket.py] - how to use SSL with `socket`
 * [SendingEmailsUsingSMTP.py] - sending email messages using SMTP protocol with `smtplib`
+* [ParallelExecutioner.py] - Thread Pool example which can be used for sending HTTP requests (for example) in Parallel 
 
 [Graphite Render API]: <http://graphite.readthedocs.org/en/latest/render_api.html>
 [ParsingArgumentsFromCommandLine.py]: <https://github.com/m-a-ge/python/blob/master/ParsingArgumentsFromCommandLine.py>
-[BannerGrabbing.py]: <https://github.com/m-a-ge/python/blob/master/BannerGrabbing.py>
-[NetworkServerWithSocket.py]: <https://github.com/m-a-ge/python/blob/master/NetworkServerWithSocket.py>
-[UsingSSLwithSocket.py]: <https://github.com/m-a-ge/python/blob/master/UsingSSLwithSocket.py>
-[SendingEmailsUsingSMTP.py]: <https://github.com/m-a-ge/python/blob/master/SendingEmailsUsingSMTP.py>
+[BannerGrabbing.py]: ./BannerGrabbing.py
+[NetworkServerWithSocket.py]: ./NetworkServerWithSocket.py
+[UsingSSLwithSocket.py]: ./UsingSSLwithSocket.py
+[SendingEmailsUsingSMTP.py]: ./SendingEmailsUsingSMTP.py
+[ParallelExecutioner.py]: ./threading_example/ParallelExecutioner.py
