@@ -18,7 +18,7 @@ All things related to Python, my experiments and code snippets
 * [ParallelExecutioner.py] - Thread Pool example which can be used for sending HTTP requests (for example) in Parallel 
 
 [Graphite Render API]: <http://graphite.readthedocs.org/en/latest/render_api.html>
-[ParsingArgumentsFromCommandLine.py]: <https://github.com/m-a-ge/python/blob/master/ParsingArgumentsFromCommandLine.py>
+[ParsingArgumentsFromCommandLine.py]: ./ParsingArgumentsFromCommandLine.py
 [BannerGrabbing.py]: ./BannerGrabbing.py
 [NetworkServerWithSocket.py]: ./NetworkServerWithSocket.py
 [UsingSSLwithSocket.py]: ./UsingSSLwithSocket.py
